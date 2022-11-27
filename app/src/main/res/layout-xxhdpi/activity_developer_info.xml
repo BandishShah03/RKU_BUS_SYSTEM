@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeveloperInfoActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OUR TEAM"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+<!--    developer-1-->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        app:strokeWidth="3dp"
+        android:layout_marginBottom="20dp"
+        app:strokeColor="@color/theme">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/DV1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="11dp">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/profile"/>
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/fullname1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HASRH B JETHVA"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/theme"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/enrollment1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20SOECE11081"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+                    <TextView
+                        android:id="@+id/email1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="hjethva314@rku.ac.in"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+<!--    developer-2-->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        app:strokeWidth="3dp"
+        android:layout_marginBottom="20dp"
+        app:strokeColor="@color/theme">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/DV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="11dp">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/profile"/>
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/fullname2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BANDISH A SHAH"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/theme"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/username2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20SOECE11066"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+
+                    <TextView
+                        android:id="@+id/email2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="bshah228@rku.ac.in"
+                        android:layout_weight="1"
+
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+<!--    developer-3-->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        android:layout_marginBottom="20dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/theme">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/DV3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="11dp">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/profile"/>
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/fullname3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JAY M VAGHASIYA"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/theme"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/username3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20SOECE11074"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+
+                    <TextView
+                        android:id="@+id/email3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="jvaghasiya191@rku.ac.in"
+                        android:layout_weight="1"
+
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+<!--    developer-4-->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        app:strokeWidth="3dp"
+        app:strokeColor="@color/theme">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/DV4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="11dp">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/profile"/>
+
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/fullname4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="YASH M THAKKAR"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/theme"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/username4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="20SOECE11070"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+
+                    <TextView
+                        android:id="@+id/email4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ythakkar288@rku.ac.in"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/theme"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created By The Anonymous"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        />
+
+</LinearLayout>

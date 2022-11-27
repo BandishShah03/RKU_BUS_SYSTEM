@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ToRoute.TStaffFragment">
+
+    <LinearLayout
+        android:id="@+id/routemain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        //Route-1
+        <LinearLayout
+            android:id="@+id/route_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 1"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : BAPASITARAM CHOK"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_one"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-2
+        <LinearLayout
+            android:id="@+id/route_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAtwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 2"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_two"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : PUSHKARDHAM"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_two"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-3
+        <LinearLayout
+            android:id="@+id/route_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_three"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 3"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_three"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : NANAVATI CHOK"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_three"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-4
+        <LinearLayout
+            android:id="@+id/route_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 4"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_four"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : KKV"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_four"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-5
+        <LinearLayout
+            android:id="@+id/route_five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_five"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 5"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_five"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : NANA MAVA CIRCLE"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_five"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-6
+        <LinearLayout
+            android:id="@+id/route_six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAsix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_six"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_six"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_six"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 6"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_six"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : BIG BAJAR"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_six"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-7
+        <LinearLayout
+            android:id="@+id/route_seven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAseven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_seven"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_seven"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_seven"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 7"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_seven"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : VRUNDAVAN"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_seven"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-8
+        <LinearLayout
+            android:id="@+id/route_eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_eight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_eight"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_eight"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 8"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_eight"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : AG CHOK"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_eight"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-9
+        <LinearLayout
+            android:id="@+id/route_nine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAnine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_nine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 9"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_nine"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : SETELITE CHOK"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_nine"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-10
+        <LinearLayout
+            android:id="@+id/route_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_ten"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_ten"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_ten"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 10"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_ten"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : MATUKI RESTRO"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_ten"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-11
+        <LinearLayout
+            android:id="@+id/route_eleven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAeleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_eleven"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_eleven"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_eleven"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 11"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_eleven"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : GANGOTRI DAIRY SADHUVASVANI ROAD"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_eleven"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+        //Route-12
+        <LinearLayout
+            android:id="@+id/route_twelve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/TSTAtwelve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                android:backgroundTint="@color/white"
+                app:cardUseCompatPadding="true"
+                app:strokeWidth="5dp"
+                android:layout_marginBottom="10dp"
+                app:strokeColor="@color/theme">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <ImageView
+                        android:id="@+id/img_twelve"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/white"
+                        android:src="@drawable/busview_icon"/>
+
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/bustime_twelve"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="TIME : 6:55 AM"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+
+                        <TextView
+                            android:id="@+id/busnumber_twelve"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="BUS NUMBER : 12"
+                            android:layout_gravity="center"
+                            android:textSize="20sp"
+                            android:textColor="@color/black"/>
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/pickup_twelve"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="PICK UP : SPEED WELL PARTY PLOAT"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/green"/>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:id="@+id/drop_twelve"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="DROP : RKU"
+                                android:layout_weight="1"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:textColor="@color/red"/>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

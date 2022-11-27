@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/white"
+        app:cardUseCompatPadding="true"
+        app:strokeWidth="5dp"
+        android:layout_marginBottom="10dp"
+        app:strokeColor="@color/theme">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="11dp">
+
+            <ImageView
+                android:id="@+id/imagecontact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:src="@drawable/busview_icon"/>
+
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bustime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time : 8:00 am"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:id="@+id/busnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BusNumber-0"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/pickup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PickUp Point"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/drop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Drop Point"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>

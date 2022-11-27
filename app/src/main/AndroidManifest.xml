@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/busview_icon"
+        android:label="RKU BUS SYSTEM"
+
+        android:roundIcon="@drawable/busview_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PraticeApp"
+        tools:targetApi="31">
+        <activity
+            android:label="Bus Number : 12"
+            android:screenOrientation="portrait"
+            android:name=".TRoute12"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 11"
+            android:screenOrientation="portrait"
+            android:name=".TRoute11"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 10"
+            android:screenOrientation="portrait"
+            android:name=".TRoute10"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 09"
+            android:screenOrientation="portrait"
+            android:name=".TRoute9"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 08"
+            android:screenOrientation="portrait"
+            android:name=".TRoute8"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 07"
+            android:screenOrientation="portrait"
+            android:name=".TRoute7"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 06"
+            android:screenOrientation="portrait"
+            android:name=".TRoute6"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 05"
+            android:screenOrientation="portrait"
+            android:name=".TRoute5"
+            android:exported="false" />
+
+        <activity
+            android:label="Bus Number : 04"
+            android:screenOrientation="portrait"
+            android:name=".TRoute4"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 03"
+            android:screenOrientation="portrait"
+            android:name=".TRoute3"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 02"
+            android:screenOrientation="portrait"
+            android:name=".TRoute2"
+            android:exported="false" />
+        <activity
+            android:label="Bus Number : 01"
+            android:screenOrientation="portrait"
+            android:name=".TRoute1"
+            android:exported="false" />
+
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 12"
+            android:name=".FRoute12"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 11"
+            android:name=".FRoute11"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 10"
+            android:name=".FRoute10"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 09"
+            android:name=".FRoute9"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 08"
+            android:name=".FRoute8"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 07"
+            android:name=".FRoute7"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 06"
+            android:name=".FRoute6"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 05"
+            android:name=".FRoute5"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 04"
+            android:name=".FRoute4"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 03"
+            android:name=".FRoute3"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 02"
+            android:name=".FRoute2"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="Bus Number : 01"
+            android:name=".FRoute1"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:label="BUS ROUTES TIME TABLE"
+            android:name=".FromActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="BUS ROUTES LIST"
+            android:name=".FromMapActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="SPECIAL BUS ROUTES"
+            android:name=".SBActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="BUS ROUTES TIME TABLE"
+            android:name=".ToActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="BUS ROUTES LIST"
+            android:name=".ToMapActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:label="DEVELOPER INFORMATION"
+            android:name=".DeveloperInfoActivity"
+            android:exported="false" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="RKU BUS SYSTEM">
+
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
